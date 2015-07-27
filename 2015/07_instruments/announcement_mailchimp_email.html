@@ -1,0 +1,414 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <!-- Facebook sharing information tags -->
+        <meta property="og:title" content="*|MC:SUBJECT|*">
+
+        <title>*|MC:SUBJECT|*</title>
+
+
+
+
+<style type="text/css">
+        body{
+            width:100% !important;
+            font-family:Helvetica;
+            font-size:16px;
+            line-height:125%;
+        }
+        body{
+            -webkit-text-size-adjust:none;
+        }
+        body{
+            margin:0;
+            padding:0;
+        }
+        img{
+            border:none;
+            font-size:14px;
+            font-weight:bold;
+            height:auto;
+            line-height:100%;
+            outline:none;
+            text-decoration:none;
+            text-transform:capitalize;
+        }
+        #backgroundTable{
+            height:100% !important;
+            margin:0;
+            padding:0;
+            width:100% !important;
+        }
+    /*
+    @tab Page
+    @section background color
+    @tip Set the background color for your email. You may want to choose one that matches your company's branding.
+    @theme page
+    */
+        body,.backgroundTable{
+            background-color:#ffffff;
+        }
+    /*
+    @tab Page
+    @section email border
+    @tip Set the border for your email.
+    */
+        #templateContainer{
+            border:0;
+        }
+    /*
+    @tab Page
+    @section heading 1
+    @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+    @theme heading1
+    */
+        h1,.h1{
+            /*@editable*/color:#202020;
+            display:block;
+            font-family:Helvetica;
+            /*@editable*/font-size:34px;
+            /*@editable*/font-weight:bold;
+            /*@editable*/line-height:100%;
+            margin-bottom:10px;
+            /*@editable*/text-align:left;
+        }
+    /*
+    @tab Page
+    @section heading 2
+    @tip Set the styling for all second-level headings in your emails.
+    @theme heading2
+    */
+        h2,.h2{
+            /*@editable*/color:#202020;
+            display:block;
+            /*@editable*/font-family:Helvetica;
+            /*@editable*/font-size:30px;
+            /*@editable*/font-weight:bold;
+            /*@editable*/line-height:100%;
+            margin-bottom:10px;
+            /*@editable*/text-align:left;
+        }
+    /*
+    @tab Page
+    @section heading 3
+    @tip Set the styling for all third-level headings in your emails.
+    @theme heading3
+    */
+        h3,.h3{
+            /*@editable*/color:#202020;
+            display:block;
+            /*@editable*/font-family:Helvetica;
+            /*@editable*/font-size:26px;
+            /*@editable*/font-weight:bold;
+            /*@editable*/line-height:100%;
+            margin-bottom:10px;
+            /*@editable*/text-align:left;
+        }
+    /*
+    @tab Page
+    @section heading 4
+    @tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
+    @theme heading4
+    */
+        h4,.h4{
+            /*@editable*/color:#202020;
+            display:block;
+            /*@editable*/font-family:Helvetica;
+            /*@editable*/font-size:22px;
+            /*@editable*/font-weight:bold;
+            /*@editable*/line-height:100%;
+            margin-bottom:10px;
+            /*@editable*/text-align:left;
+        }
+    /*
+    @tab Header
+    @section preheader style
+    @tip Set the background color for your email's preheader area.
+    @theme page
+    */
+        #templatePreheader{
+            /*@editable*/background-color:#ffffff;
+        }
+    /*
+    @tab Header
+    @section preheader text
+    @tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
+    */
+        .preheaderContent div{
+            /*@editable*/color:#505050;
+            /*@editable*/font-family:Helvetica;
+            /*@editable*/font-size:10px;
+            /*@editable*/line-height:100%;
+            /*@editable*/text-align:left;
+        }
+    /*
+    @tab Header
+    @section preheader link
+    @tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
+    */
+        .preheaderContent div a:link,.preheaderContent div a:visited{
+            /*@editable*/color:#336699;
+            /*@editable*/font-weight:normal;
+            /*@editable*/text-decoration:underline;
+        }
+        .preheaderContent div img{
+            height:auto;
+            max-width:600px;
+        }
+    /*
+    @tab Header
+    @section header style
+    @tip Set the background color and border for your email's header area.
+    @theme header
+    */
+        #templateHeader{
+            /*@editable*/background-color:#ffffff;
+            /*@editable*/border-bottom:0;
+        }
+    /*
+    @tab Header
+    @section header text
+    @tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+    */
+        .headerContent{
+            /*@editable*/color:#202020;
+            /*@editable*/font-family:Helvetica;
+            /*@editable*/font-size:34px;
+            /*@editable*/font-weight:bold;
+            /*@editable*/line-height:100%;
+            /*@editable*/padding:0;
+            /*@editable*/text-align:center;
+            /*@editable*/vertical-align:middle;
+        }
+    /*
+    @tab Header
+    @section header link
+    @tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+    */
+        .headerContent a:link,.headerContent a:visited{
+            /*@editable*/color:#336699;
+            /*@editable*/font-weight:normal;
+            /*@editable*/text-decoration:underline;
+        }
+        #headerImage{
+            height:auto;
+            max-width:600px !important;
+        }
+    /*
+    @tab Body
+    @section body style
+    @tip Set the background color for your email's body area.
+    */
+        #templateContainer,.bodyContent{
+            /*@editable*/background-color:#ffffff;
+        }
+    /*
+    @tab Body
+    @section body text
+    @tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+    @theme main
+    */
+        .bodyContent div{
+            /*@editable*/color:#505050;
+            /*@editable*/font-family:Helvetica;
+            /*@editable*/font-size:14px;
+            /*@editable*/line-height:150%;
+            /*@editable*/text-align:left;
+        }
+    /*
+    @tab Body
+    @section body link
+    @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
+    */
+        .bodyContent div a:link,.bodyContent div a:visited{
+            /*@editable*/color:#336699;
+            /*@editable*/font-weight:normal;
+            /*@editable*/text-decoration:underline;
+        }
+        .bodyContent img{
+            display:inline;
+            margin-bottom:10px;
+        }
+    /*
+    @tab Footer
+    @section footer style
+    @tip Set the background color and top border for your email's footer area.
+    @theme footer
+    */
+        #templateFooter{
+            /*@editable*/background-color:#ffffff;
+            /*@editable*/border-top:0;
+        }
+    /*
+    @tab Footer
+    @section footer text
+    @tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
+    @theme footer
+    */
+        .footerContent div{
+            /*@editable*/color:#707070;
+            /*@editable*/font-family:Helvetica;
+            /*@editable*/font-size:12px;
+            /*@editable*/line-height:125%;
+            /*@editable*/text-align:left;
+        }
+    /*
+    @tab Footer
+    @section footer link
+    @tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
+    */
+        .footerContent div a:link,.footerContent div a:visited{
+            /*@editable*/color:#336699;
+            /*@editable*/font-weight:normal;
+            /*@editable*/text-decoration:underline;
+        }
+        .footerContent img{
+            display:inline;
+        }
+    /*
+    @tab Footer
+    @section social bar style
+    @tip Set the background color and border for your email's footer social bar.
+    */
+        #social{
+            background-color:#ffffff;
+        }
+    /*
+    @tab Footer
+    @section social bar style
+    @tip Set the background color and border for your email's footer social bar.
+    */
+        #social div{
+            text-align:left;
+        }
+    /*
+    @tab Footer
+    @section utility bar style
+    @tip Set the background color and border for your email's footer utility bar.
+    */
+        #utility{
+            /*@editable*/background-color:#ffffff;
+            /*@editable*/border-top:1px solid #F5F5F5;
+        }
+    /*
+    @tab Footer
+    @section utility bar style
+    @tip Set the background color and border for your email's footer utility bar.
+    */
+        #utility div{
+            /*@editable*/text-align:left;
+        }
+        #monkeyRewards img{
+            max-width:160px;
+        }
+</style></head>
+<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+
+<a href="http://monthlymusichackathon.org/post/123430840892/instruments-2015"><img src="https://gallery.mailchimp.com/498e6061a6f7a0ca8bf5da9f8/images/ad71f513-70d8-405d-98ad-abc349d98402.gif"></a>
+
+<h2>New Musical Instruments Hackathon</h2>
+<p>
+July 24-25, 2015<br>
+Spotify NYC <a href="https://goo.gl/maps/IRdrb" style="font-size:12px;">(45 W 18th St, 7th Floor, New York, NY 10011)</a><br>
+Free. All are welcome.<br>
+<a href="https://instruments.eventbrite.com">RSVP</a>
+</p>
+
+<h3>Talks by Instrument Inventors & Builders</h3>
+<p>
+Friday, July 24th, 2015<br>
+8:00 PM
+</p>
+<table border="0" width="100%">
+<tr><td><a href="http://andycavatorta.com/">Andy Cavatorta</a></td><td>Music, Machines and Lessons Learned</td></tr>
+<tr><td><a href="http://jedminer.com/synthesizers">Jed Miner</a></td><td>Synthesizer Sculptures</td></tr>
+<tr><td><a href="http://stevenkemper.com/wp/hardware/expressive-machines-musical-instruments/">Steven Kemper</a></td><td>Human-Robot Interaction</td></tr>
+<tr><td><a href="http://spotmeter.com/projects/">Brenden Hussey</a></td><td>Domestic Repurposing</td></tr>
+<tr><td><a href="http://scottbarton.info/">Scott Barton</a></td><td>Robotic Instruments</td></tr>
+<tr><td><a href="http://www.tide-pool.ca/">Thor Kell</a></td><td>Automatic iOS Instruments</td></tr>
+<tr><td><a href="http://www.scattershot.org/research.htm">Jeff Snyder</a></td><td>Manta Controller</td></tr>
+<tr><td><a href="http://monome.org/">Brian Crabtree</a></td><td>Monome Grid Controller</td></tr>
+<tr><td><a href="http://kenbutler.squarespace.com/">Ken Butler</a></td><td>Hybrid Instruments</td></tr>
+</table>
+<br>
+
+<h3>Hackathon</h3>
+<p>
+<em>Make anything you want related to music!</em><br>
+Saturday, July 25th, 2015
+</p>
+<table border="0" width="100%">
+<tr><td>10:00 AM</td><td>Door Open & Hacking Starts! We have coffee.</td></tr>
+<tr><td>10:30 AM</td><td>Brainstorming / Collaborator-finding session</td></tr>
+<tr><td>12:00 AM</td><td>Lunch provided</td></tr>
+<tr><td>5:00 PM</td><td>Dinner on your own</td></tr>
+<tr><td>6:30 PM</td><td>Submit your hacks to <a href="http://goo.gl/forms/XmyIZBjyRf">this form</a></td></tr>
+<tr><td>7:00 PM</td><td>Soundcheck</td></tr>
+<tr><td>8:00 PM</td><td>Demo or perform your hack!</td></tr>
+</table>
+<br>
+
+<h3>Hack Demos & Performances</h3>
+<p>
+<em>Hear about all the musical hacks made today!</em><br>
+Saturday, July 25th, 2015<br>
+8:00 PM
+</p>
+<br>
+<p>
+<a href="http://eepurl.com/pNXJP">mailing list</a><br>
+<a href="http://monthlymusichackathon.org/">blog</a><br>
+<a href="https://twitter.com/musichackathon">@musichackathon</a><br>
+<a href="https://www.facebook.com/musichackathon">facebook</a>
+</p>
+
+Coming up:<br>
+<p>
+<b>Music Games</b>, August 29, 2015, Spotify NYC, <a href="http://monthlymusichackathonnyc.eventbrite.com">Registration open now!</a><br>
+
+<b>Music Education</b>, September 26, 2015, Spotify NYC<br>
+<b>Haunted Sound Art Installations</b>, October 31, 2015, Spotify NYC<br>
+<b>Sound Visualization & Data Sonification</b>, December 12, 2015, Spotify NYC<br>
+
+</p>
+
+<div mc:edit="std_social">
+    &nbsp;<a href="*|TWITTER:PROFILEURL|*">follow on Twitter</a> | <a href="*|FACEBOOK:PROFILEURL|*">friend on Facebook</a> | <a href="*|FORWARD|*">forward to a friend</a>&nbsp;
+</div>
+<br>
+<div mc:edit="std_footer">
+    *|IF:LIST|*
+    <em>Copyright &copy; *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.</em>
+    <br>
+    <!-- *|IFNOT:ARCHIVE_PAGE|* -->
+    *|LIST:DESCRIPTION|*
+    <br>
+    <strong>Our mailing address is:</strong>
+    <br>
+    *|HTML:LIST_ADDRESS_HTML|*
+    <br>
+    <!-- *|END:IF|* -->
+    *|ELSE:|*
+    <!-- *|IFNOT:ARCHIVE_PAGE|* -->
+    <em>Copyright &copy; *|CURRENT_YEAR|* *|USER:COMPANY|*, All rights reserved.</em>
+    <br>
+    <strong>Our mailing address is:</strong>
+    <br>
+    *|USER:ADDRESS_HTML|*
+    <!-- *|END:IF|* -->
+    *|END:IF|*
+</div>
+<br>
+<br>
+<div mc:edit="monkeyrewards">
+    *|IF:REWARDS|* *|HTML:REWARDS|* *|END:IF|*
+</div>
+<br>
+<div mc:edit="std_utility">
+    &nbsp;<a href="*|UNSUB|*">unsubscribe from this list</a> | <a href="*|UPDATE_PROFILE|*">update subscription preferences</a><!-- *|IFNOT:ARCHIVE_PAGE|* --> | <a href="*|ARCHIVE|*">view email in browser</a><!-- *|END:IF|* -->&nbsp;
+</div>
+<!-- // End Module: Standard Footer \\ -->
+
+</body>
+</html>
